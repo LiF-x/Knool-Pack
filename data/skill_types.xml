@@ -1899,7 +1899,7 @@
 				<entities>
 					<entity type="inventory_item">
 						<ent_reqs>
-							<ent_req type="object_type_id">47 48 49 1466</ent_req>
+							<ent_req type="object_type_id">47 48 49 1466 2465</ent_req>
 							<ent_req type="durability">solid corrupted</ent_req>
 						</ent_reqs>
 					</entity>
