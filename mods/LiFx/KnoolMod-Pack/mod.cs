@@ -42,7 +42,7 @@ package LiFxKnoolModPack
 
     }
     function LiFxKnoolModPack::version() {
-        return "0.0.1";
+        return "1.0.0";
     }
     function LiFxKnoolModPack::Datablock() {
         exec ("yolauncher/modpack/mods/LiFx/KnoolMod-Pack/art/datablocks/animals/Knools.cs");
