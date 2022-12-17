@@ -1899,7 +1899,7 @@
 				<entities>
 					<entity type="inventory_item">
 						<ent_reqs>
-							<ent_req type="object_type_id">47 48 49 1466 2465</ent_req>
+							<ent_req type="object_type_id">47 48 49 1466</ent_req>
 							<ent_req type="durability">solid corrupted</ent_req>
 						</ent_reqs>
 					</entity>
@@ -6070,7 +6070,7 @@
 				<entities>
 					<entity type="complex_obj">
 						<ent_reqs>
-							<ent_req type="object_type_id">1070 1083 924 925 926 927 928 929 930 931 932 933 934 935 936 1090 1460 2359 2360 2361 2362 2399</ent_req>
+							<ent_req type="object_type_id">1070 1083 924 925 926 927 928 929 930 931 932 933 934 935 936 1090 1460 2399 2359 2360 2361 2362</ent_req>
 						</ent_reqs>
 					</entity>
 					<entity type="player"/>
@@ -6720,7 +6720,7 @@
 					</entity>
 					<entity type="complex_obj">
 						<ent_reqs>
-							<ent_req type="object_type_id">1461 1497 </ent_req>
+							<ent_req type="object_type_id">1461 1497</ent_req>
 							<ent_req type="state">complete damaged</ent_req>
 							<ent_req type="claim" usage_type="use">
 								<land type="realm" jh_allowed_worlds="everywhere"/>
@@ -6739,7 +6739,7 @@
 				<entities>
 					<entity type="attached_obj">
 						<ent_reqs>
-							<ent_req type="object_type_id">1437 1496 </ent_req>
+							<ent_req type="object_type_id">1437 1496</ent_req>
 							<ent_req type="claim" usage_type="use">
 								<land type="realm" jh_allowed_worlds="everywhere"/>
 								<land type="outpost" jh_allowed_worlds="everywhere"/>
@@ -6749,7 +6749,7 @@
 					</entity>
 					<entity type="complex_obj">
 						<ent_reqs>
-							<ent_req type="object_type_id">1461 1497 </ent_req>
+							<ent_req type="object_type_id">1461 1497</ent_req>
 							<ent_req type="state">complete damaged</ent_req>
 							<ent_req type="claim" usage_type="use">
 								<land type="realm" jh_allowed_worlds="everywhere"/>
@@ -7256,7 +7256,7 @@
 					</entity>
 					<entity type="attached_obj">
 						<ent_reqs>
-							<ent_req type="object_type_id">1437 1496 </ent_req>
+							<ent_req type="object_type_id">1437 1496</ent_req>
 							<ent_req type="claim" usage_type="use">
 								<land type="realm" jh_allowed_worlds="everywhere"/>
 								<land type="outpost" jh_allowed_worlds="everywhere"/>

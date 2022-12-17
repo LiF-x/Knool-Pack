@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf8"?>
+<?xml version="1.0" encoding="utf-8"?>
 
 <table name="objects_types">
 	<row>
@@ -12,12 +12,12 @@
 		<IsDevice>0</IsDevice>
 		<IsDoor>0</IsDoor>
 		<IsPremium>0</IsPremium>
-		<MaxContSize>0</MaxContSize>
-		<Length>0</Length>
-		<MaxStackSize>0</MaxStackSize>
-		<UnitWeight>0</UnitWeight>
-		<BackgndImage></BackgndImage>
-		<FaceImage></FaceImage>
+		<MaxContSize isnull="true" />
+		<Length isnull="true" />
+		<MaxStackSize isnull="true" />
+		<UnitWeight isnull="true" />
+		<BackgndImage isnull="true" />
+		<FaceImage isnull="true" />
 		<Description>DO NOT TRANSLATE! Root type for other utility types</Description>
 	</row>
 	<row>
@@ -31,12 +31,12 @@
 		<IsDevice>0</IsDevice>
 		<IsDoor>0</IsDoor>
 		<IsPremium>0</IsPremium>
-		<MaxContSize>0</MaxContSize>
-		<Length>0</Length>
-		<MaxStackSize>0</MaxStackSize>
-		<UnitWeight>0</UnitWeight>
-		<BackgndImage></BackgndImage>
-		<FaceImage></FaceImage>
+		<MaxContSize isnull="true" />
+		<Length isnull="true" />
+		<MaxStackSize isnull="true" />
+		<UnitWeight isnull="true" />
+		<BackgndImage isnull="true" />
+		<FaceImage isnull="true" />
 		<Description>DO NOT TRANSLATE! Root type for gameplay types</Description>
 	</row>
 	<row>
@@ -2007,10 +2007,10 @@
 		<IsDevice>1</IsDevice>
 		<IsDoor>0</IsDoor>
 		<IsPremium>0</IsPremium>
-		<MaxContSize>300000</MaxContSize>
+		<MaxContSize>100000</MaxContSize>
 		<Length>6</Length>
 		<MaxStackSize>0</MaxStackSize>
-		<UnitWeight>10000</UnitWeight>
+		<UnitWeight>20000</UnitWeight>
 		<BackgndImage>art\images\Smelting_bg.png</BackgndImage>
 		<FaceImage>art\2D\Objects\furnace.png</FaceImage>
 		<Description></Description>
@@ -2165,7 +2165,7 @@
 		<UnitWeight>20000</UnitWeight>
 		<BackgndImage>art\images\Smelting_bg.png</BackgndImage>
 		<FaceImage>art\2D\Objects\kiln.png</FaceImage>
-		<Description>Kiln With Increased Container Size</Description>
+		<Description></Description>
 	</row>
 	<row>
 		<ID>118</ID>
@@ -2520,7 +2520,7 @@
 		<IsDevice>1</IsDevice>
 		<IsDoor>0</IsDoor>
 		<IsPremium>0</IsPremium>
-		<MaxContSize>500000</MaxContSize>
+		<MaxContSize>100000</MaxContSize>
 		<Length>6</Length>
 		<MaxStackSize>0</MaxStackSize>
 		<UnitWeight>200000</UnitWeight>
@@ -2558,7 +2558,7 @@
 		<IsDevice>1</IsDevice>
 		<IsDoor>0</IsDoor>
 		<IsPremium>0</IsPremium>
-		<MaxContSize>1000000</MaxContSize>
+		<MaxContSize>400000</MaxContSize>
 		<Length>6</Length>
 		<MaxStackSize>0</MaxStackSize>
 		<UnitWeight>50000</UnitWeight>
@@ -7213,7 +7213,7 @@
 		<IsDevice>1</IsDevice>
 		<IsDoor>0</IsDoor>
 		<IsPremium>0</IsPremium>
-		<MaxContSize>200000</MaxContSize>
+		<MaxContSize>100000</MaxContSize>
 		<Length>6</Length>
 		<MaxStackSize>0</MaxStackSize>
 		<UnitWeight>50000</UnitWeight>
@@ -11507,13 +11507,13 @@
 		<IsDevice>1</IsDevice>
 		<IsDoor>0</IsDoor>
 		<IsPremium>0</IsPremium>
-		<MaxContSize>2500000</MaxContSize>
-		<Length>7</Length>
+		<MaxContSize>50000</MaxContSize>
+		<Length>3</Length>
 		<MaxStackSize>0</MaxStackSize>
 		<UnitWeight>1000</UnitWeight>
 		<BackgndImage>art\images\fireplace_bg.png</BackgndImage>
 		<FaceImage>art\2D\Objects\campfire.png</FaceImage>
-		<Description>Camp Fire With Increased Container Size, put dirt in here</Description>
+		<Description></Description>
 	</row>
 	<row>
 		<ID>683</ID>
@@ -18871,7 +18871,7 @@
 	<row>
 		<ID>1072</ID>
 		<ParentID>130</ParentID>
-		<Name>0de Wall (diagonal)</Name>
+		<Name>Palisade Wall (diagonal)</Name>
 		<IsContainer>0</IsContainer>
 		<IsMovableObject>0</IsMovableObject>
 		<IsUnmovableobject>1</IsUnmovableobject>
@@ -26464,8 +26464,8 @@
 		<Length>5</Length>
 		<MaxStackSize>0</MaxStackSize>
 		<UnitWeight>2000</UnitWeight>
-		<BackgndImage></BackgndImage>
-		<FaceImage></FaceImage>
+		<BackgndImage isnull="true" />
+		<FaceImage isnull="true" />
 		<Description></Description>
 	</row>
 	<row>
@@ -26483,8 +26483,8 @@
 		<Length>0</Length>
 		<MaxStackSize>0</MaxStackSize>
 		<UnitWeight>20</UnitWeight>
-		<BackgndImage></BackgndImage>
-		<FaceImage></FaceImage>
+		<BackgndImage isnull="true" />
+		<FaceImage isnull="true" />
 		<Description></Description>
 	</row>
 	<row>
@@ -36177,10 +36177,10 @@
 		<FaceImage>art\2D\Items\gold_and_silver_amulet.png</FaceImage>
 		<Description>Elder's gift for helping the villagers.</Description>
 	</row>
-		<row>
-		<ID>2360</ID>
+	<row>
+		<ID>2359</ID>
 		<ParentID>624</ParentID>
-		<Name>Knool Hunter Carcass</Name>
+		<Name>Chieftain Carcass</Name>
 		<IsContainer>1</IsContainer>
 		<IsMovableObject>1</IsMovableObject>
 		<IsUnmovableobject>0</IsUnmovableobject>
@@ -36190,16 +36190,35 @@
 		<IsPremium>0</IsPremium>
 		<MaxContSize>10000000</MaxContSize>
 		<Length>10</Length>
-		<MaxStackSize>0</MaxStackSize>
+		<MaxStackSize>1</MaxStackSize>
 		<UnitWeight>1000</UnitWeight>
-		<BackgndImage>art\images\universal</BackgndImage>
+		<BackgndImage>art\images\bag</BackgndImage>
+		<FaceImage></FaceImage>
+		<Description></Description>
+	</row>
+	<row>
+		<ID>2360</ID>
+		<ParentID>624</ParentID>
+		<Name>Hunter Carcass</Name>
+		<IsContainer>1</IsContainer>
+		<IsMovableObject>1</IsMovableObject>
+		<IsUnmovableobject>0</IsUnmovableobject>
+		<IsTool>0</IsTool>
+		<IsDevice>0</IsDevice>
+		<IsDoor>0</IsDoor>
+		<IsPremium>0</IsPremium>
+		<MaxContSize>10000000</MaxContSize>
+		<Length>10</Length>
+		<MaxStackSize>1</MaxStackSize>
+		<UnitWeight>1000</UnitWeight>
+		<BackgndImage>art\images\bag</BackgndImage>
 		<FaceImage></FaceImage>
 		<Description></Description>
 	</row>
 	<row>
 		<ID>2361</ID>
 		<ParentID>624</ParentID>
-		<Name>Knool Mole Carcass</Name>
+		<Name>Mole Carcass</Name>
 		<IsContainer>1</IsContainer>
 		<IsMovableObject>1</IsMovableObject>
 		<IsUnmovableobject>0</IsUnmovableobject>
@@ -36209,16 +36228,16 @@
 		<IsPremium>0</IsPremium>
 		<MaxContSize>10000000</MaxContSize>
 		<Length>10</Length>
-		<MaxStackSize>0</MaxStackSize>
+		<MaxStackSize>1</MaxStackSize>
 		<UnitWeight>1000</UnitWeight>
-		<BackgndImage>art\images\universal</BackgndImage>
+		<BackgndImage>art\images\bag</BackgndImage>
 		<FaceImage></FaceImage>
 		<Description></Description>
 	</row>
 	<row>
 		<ID>2362</ID>
 		<ParentID>624</ParentID>
-		<Name>Knool Witch Carcass</Name>
+		<Name>Witch Carcass</Name>
 		<IsContainer>1</IsContainer>
 		<IsMovableObject>1</IsMovableObject>
 		<IsUnmovableobject>0</IsUnmovableobject>
@@ -36228,16 +36247,16 @@
 		<IsPremium>0</IsPremium>
 		<MaxContSize>10000000</MaxContSize>
 		<Length>10</Length>
-		<MaxStackSize>0</MaxStackSize>
+		<MaxStackSize>1</MaxStackSize>
 		<UnitWeight>1000</UnitWeight>
-		<BackgndImage>art\images\universal</BackgndImage>
+		<BackgndImage>art\images\bag</BackgndImage>
 		<FaceImage></FaceImage>
 		<Description></Description>
 	</row>
 	<row>
 		<ID>2394</ID>
 		<ParentID>751</ParentID>
-		<Name>Knool Bear</Name>
+		<Name>Bear Knool</Name>
 		<IsContainer>0</IsContainer>
 		<IsMovableObject>1</IsMovableObject>
 		<IsUnmovableobject>0</IsUnmovableobject>
@@ -36256,7 +36275,7 @@
 	<row>
 		<ID>2395</ID>
 		<ParentID>751</ParentID>
-		<Name>Knool Chieftain</Name>
+		<Name>Chieftain</Name>
 		<IsContainer>0</IsContainer>
 		<IsMovableObject>1</IsMovableObject>
 		<IsUnmovableobject>0</IsUnmovableobject>
@@ -36275,7 +36294,7 @@
 	<row>
 		<ID>2396</ID>
 		<ParentID>751</ParentID>
-		<Name>Knool Hunter</Name>
+		<Name>Hunter</Name>
 		<IsContainer>0</IsContainer>
 		<IsMovableObject>1</IsMovableObject>
 		<IsUnmovableobject>0</IsUnmovableobject>
@@ -36294,7 +36313,7 @@
 	<row>
 		<ID>2397</ID>
 		<ParentID>751</ParentID>
-		<Name>Knool Mole</Name>
+		<Name>Mole</Name>
 		<IsContainer>0</IsContainer>
 		<IsMovableObject>1</IsMovableObject>
 		<IsUnmovableobject>0</IsUnmovableobject>
@@ -36313,7 +36332,7 @@
 	<row>
 		<ID>2398</ID>
 		<ParentID>751</ParentID>
-		<Name>Knool Witch</Name>
+		<Name>Witch</Name>
 		<IsContainer>0</IsContainer>
 		<IsMovableObject>1</IsMovableObject>
 		<IsUnmovableobject>0</IsUnmovableobject>
@@ -36332,7 +36351,7 @@
 	<row>
 		<ID>2399</ID>
 		<ParentID>624</ParentID>
-		<Name>Knool Bear Carcass</Name>
+		<Name>BearKnool Carcass</Name>
 		<IsContainer>1</IsContainer>
 		<IsMovableObject>1</IsMovableObject>
 		<IsUnmovableobject>0</IsUnmovableobject>
@@ -36342,32 +36361,12 @@
 		<IsPremium>0</IsPremium>
 		<MaxContSize>10000000</MaxContSize>
 		<Length>10</Length>
-		<MaxStackSize>0</MaxStackSize>
+		<MaxStackSize>1</MaxStackSize>
 		<UnitWeight>1000</UnitWeight>
-		<BackgndImage>art\images\universal</BackgndImage>
+		<BackgndImage>art\images\bag</BackgndImage>
 		<FaceImage></FaceImage>
 		<Description></Description>
 	</row>
-	<row>
-		<ID>2359</ID>
-		<ParentID>624</ParentID>
-		<Name>Chieftain Carcass</Name>
-		<IsContainer>1</IsContainer>
-		<IsMovableObject>1</IsMovableObject>
-		<IsUnmovableobject>0</IsUnmovableobject>
-		<IsTool>0</IsTool>
-		<IsDevice>0</IsDevice>
-		<IsDoor>0</IsDoor>
-		<IsPremium>0</IsPremium>
-		<MaxContSize>10000000</MaxContSize>
-		<Length>10</Length>
-		<MaxStackSize>0</MaxStackSize>
-		<UnitWeight>1000</UnitWeight>
-		<BackgndImage>art\images\universal</BackgndImage>
-		<FaceImage></FaceImage>
-		<Description></Description>
-	</row>
-<!-- Knool Weapons -->
 	<row>
 		<ID>2461</ID>
 		<ParentID>1031</ParentID>
@@ -36380,7 +36379,7 @@
 		<IsDoor>0</IsDoor>
 		<IsPremium>0</IsPremium>
 		<MaxContSize>0</MaxContSize>
-		<Length>4</Length>
+		<Length>3</Length>
 		<MaxStackSize>1</MaxStackSize>
 		<UnitWeight>1500</UnitWeight>
 		<BackgndImage></BackgndImage>
@@ -36401,7 +36400,7 @@
 		<MaxContSize>0</MaxContSize>
 		<Length>4</Length>
 		<MaxStackSize>1</MaxStackSize>
-		<UnitWeight>1500</UnitWeight>
+		<UnitWeight>3500</UnitWeight>
 		<BackgndImage></BackgndImage>
 		<FaceImage>yolauncher/modpack/mods/LiFx/KnoolMod-Pack/art/2D/Items/NativeWeapons/bearaxe.png</FaceImage>
 		<Description>A Weapon of the knools, Liberated from one whom was slayed.</Description>
@@ -36420,9 +36419,9 @@
 		<MaxContSize>0</MaxContSize>
 		<Length>4</Length>
 		<MaxStackSize>1</MaxStackSize>
-		<UnitWeight>1500</UnitWeight>
+		<UnitWeight>5000</UnitWeight>
 		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/mods/LiFx/KnoolMod-Pack/art/2D/Items/NativeWeapons/ChieftainSword.png</FaceImage>
+		<FaceImage>yolauncher/modpack/mods/LiFx/KnoolMod-Pack/art/2D/Items/NativeWeapons/chieftainsword.png</FaceImage>
 		<Description>A Weapon of the knools, Liberated from one whom was slayed.</Description>
 	</row>
 	<row>
@@ -36437,9 +36436,9 @@
 		<IsDoor>0</IsDoor>
 		<IsPremium>0</IsPremium>
 		<MaxContSize>0</MaxContSize>
-		<Length>2</Length>
+		<Length>3</Length>
 		<MaxStackSize>1</MaxStackSize>
-		<UnitWeight>1</UnitWeight>
+		<UnitWeight>1000</UnitWeight>
 		<BackgndImage></BackgndImage>
 		<FaceImage>yolauncher/modpack/mods/LiFx/KnoolMod-Pack/art/2D/Items/NativeWeapons/hunteraxe.png</FaceImage>
 		<Description>A Weapon of the knools, Liberated from one whom was slayed.</Description>
@@ -36456,16 +36455,16 @@
 		<IsDoor>0</IsDoor>
 		<IsPremium>0</IsPremium>
 		<MaxContSize>0</MaxContSize>
-		<Length>4</Length>
+		<Length>3</Length>
 		<MaxStackSize>1</MaxStackSize>
-		<UnitWeight>1</UnitWeight>
+		<UnitWeight>1600</UnitWeight>
 		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/mods/LiFx/KnoolMod-Pack/art/2D/Items/NativeWeapons/molepickaxe.png</FaceImage>
+		<FaceImage>yolauncher/modpack/mods/LiFx/KnoolMod-Pack/art/2D/Items/NativeWeapons/Molepickaxe.png</FaceImage>
 		<Description>A Weapon of the knools, Liberated from one whom was slayed.</Description>
 	</row>
 	<row>
 		<ID>2466</ID>
-		<ParentID>8</ParentID>
+		<ParentID>196</ParentID>
 		<Name>Hunter Bow</Name>
 		<IsContainer>0</IsContainer>
 		<IsMovableObject>0</IsMovableObject>
@@ -36475,11 +36474,11 @@
 		<IsDoor>0</IsDoor>
 		<IsPremium>0</IsPremium>
 		<MaxContSize>0</MaxContSize>
-		<Length>4</Length>
+		<Length>3</Length>
 		<MaxStackSize>1</MaxStackSize>
-		<UnitWeight>1</UnitWeight>
+		<UnitWeight>3000</UnitWeight>
 		<BackgndImage></BackgndImage>
 		<FaceImage>yolauncher/modpack/mods/LiFx/KnoolMod-Pack/art/2D/Items/NativeWeapons/hunterbow.png</FaceImage>
-		<Description>A Weapon of the knools, Liberated from one whom was slayed.</Description>
+		<Description>A Bow of the knools, Liberated from one whom was slayed.</Description>
 	</row>
 </table>
