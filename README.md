@@ -22,7 +22,7 @@
 
     5B). Add "2465" inside <ent_req type="object_type_id">47 48 49 1466</ent_req> of Shape Stones Ability (Normally on line# 1902)
 
-6. Copy all data from Knool_cm_equipTypes.xml and paste at the bottom of **Your** objects_types.xml in the data folder on the server 
+6. Copy all data from Knool_cm_equipTypes.xml and paste at the bottom of **Your** cm_equipTypes.xmll in the data folder on the server 
 Please Note: Ensure you paste over the top of this tag </object_types> as the Knool_cm_equipTypes.xml includes this.
 
 7. Upload the ai folder (including content) to your servers data folder.
@@ -35,7 +35,7 @@ Please Note: Ensure you paste over the top of this tag </object_types> as the Kn
 
 9. Ensure you have 7zip installed on your computer [Download here](https://7zip.dev/en/download/)
 
-10. Ensure all you need is in the pack and insert files into the yo launcher folder that you need for your server, ensuring you do not overwrite the mod files
+10. Ensure all you need is in the pack and insert files into the yo launcher folder that you need for your server, ensuring you do not overwrite the mod files without checking your are moving a more up to date version with the correct information 
 
 11. Run the "createModpack.bat" included in this pack to generate a mod pack to upload to [Yo Launcher](https://www.yolauncher.app/)
 
