@@ -27,8 +27,8 @@ datablock AnimalData(WitchData : DefaultPlayerData)
     skinnedCorpseObjectTypeID = 928;
     WeaponData = "Wolf_Fang";
     weaponWeight = 12;
-    powerHitStartingDistance = 1.2;
-    powerHitDamagingDistance = 1.4;
+    powerHitStartingDistance = 1.4;
+    powerHitDamagingDistance = 1.6;
     powerHitDamagingSector = 90;
     powerHitMinSpeed = 15;
     powerHitMaxSpeed = 25;
@@ -48,7 +48,7 @@ datablock AnimalData(BearKnoolData : DefaultPlayerData)
 {
     id = 783; // has to be globally unique currently this replaces the bear id
     animalTypeId = 2394; // This is dataBlock for wild animal
-    footprintTexture = "yolauncher/modpack/mods/LiFx/KnoolMod-Pack/art/Textures/AnimalFootprints/Tribe_Witch_fs.png";
+    footprintTexture = "yolauncher/modpack/mods/LiFx/KnoolMod-Pack/art/Textures/AnimalFootprints/Bear_Knool_fs.png";
     footprintTextureLinearSize = 0.4;
     footprintGap = 0.6;
     footprintTrackWidth = 0.4;
@@ -64,8 +64,8 @@ datablock AnimalData(BearKnoolData : DefaultPlayerData)
     skinnedCorpseObjectTypeID = 928;
     WeaponData = "Wolf_Fang";
     weaponWeight = 12;
-    powerHitStartingDistance = 1.2;
-    powerHitDamagingDistance = 1.4;
+    powerHitStartingDistance = 1.4;
+    powerHitDamagingDistance = 1.6;
     powerHitDamagingSector = 90;
     powerHitMinSpeed = 15;
     powerHitMaxSpeed = 20;
@@ -85,7 +85,7 @@ datablock AnimalData(ChieftainData : DefaultPlayerData)
 {
     id = 1025; // has to be globally unique currently this replaces the bear id
     animalTypeId = 2395; // This is dataBlock for wild animal
-    footprintTexture = "yolauncher/modpack/mods/LiFx/KnoolMod-Pack/art/Textures/AnimalFootprints/Tribe_Witch_fs.png";
+    footprintTexture = "yolauncher/modpack/mods/LiFx/KnoolMod-Pack/art/Textures/AnimalFootprints/Chieftain_fs.png";
     footprintTextureLinearSize = 0.4;
     footprintGap = 0.6;
     footprintTrackWidth = 0.4;
@@ -93,7 +93,7 @@ datablock AnimalData(ChieftainData : DefaultPlayerData)
     soundFilesPrefix = "wolf";
     behavior = "yolauncher/modpack/data/ai/Tribe_Chieftain.xml";
     boundingBox = "1 2.4 1.8";
-    runSurfaceAngle = 50;
+    runSurfaceAngle = 75;
     maxHP = 650;
     hpRegenRate = 9;
     bodyRadius = 2.5;
@@ -101,8 +101,8 @@ datablock AnimalData(ChieftainData : DefaultPlayerData)
     skinnedCorpseObjectTypeID = 928;
     WeaponData = "KnoolChieftainSword";
     weaponWeight = 12;
-    powerHitStartingDistance = 1.2;
-    powerHitDamagingDistance = 1.4;
+    powerHitStartingDistance = 1.4;
+    powerHitDamagingDistance = 1.6;
     powerHitDamagingSector = 90;
     powerHitMinSpeed = 15;
     powerHitMaxSpeed = 25;
@@ -113,7 +113,7 @@ datablock AnimalData(ChieftainData : DefaultPlayerData)
     fastHitMaxSpeed = 12;
     walkAnimationSpeed = 1.72;
     runAnimationSpeed = 1.21;
-    walkSpeed = 3;
+    walkSpeed = 4;
     runSpeed = 6;
     animalType = "Predator";
 };
@@ -122,7 +122,7 @@ datablock AnimalData(HunterData : DefaultPlayerData)
 {
     id = 782; // has to be globally unique currently this replaces the bear id
     animalTypeId = 2396; // This is dataBlock for wild animal
-    footprintTexture = "yolauncher/modpack/mods/LiFx/KnoolMod-Pack/art/Textures/AnimalFootprints/Tribe_Witch_fs.png";
+    footprintTexture = "yolauncher/modpack/mods/LiFx/KnoolMod-Pack/art/Textures/AnimalFootprints/Hunter_fs.png";
     footprintTextureLinearSize = 0.4;
     footprintGap = 0.6;
     footprintTrackWidth = 0.4;
@@ -130,7 +130,7 @@ datablock AnimalData(HunterData : DefaultPlayerData)
     soundFilesPrefix = "wolf";
     behavior = "yolauncher/modpack/data/ai/Tribe_Hunter.xml";
     boundingBox = "1 2.4 1.8";
-    runSurfaceAngle = 50;
+    runSurfaceAngle = 75;
     maxHP = 650;
     hpRegenRate = 4;
     bodyRadius = 2.5;
@@ -138,8 +138,8 @@ datablock AnimalData(HunterData : DefaultPlayerData)
     skinnedCorpseObjectTypeID = 928;
     WeaponData = "Wolf_Fang";
     weaponWeight = 12;
-    powerHitStartingDistance = 1.2;
-    powerHitDamagingDistance = 1.4;
+    powerHitStartingDistance = 1.4;
+    powerHitDamagingDistance = 1.6;
     powerHitDamagingSector = 90;
     powerHitMinSpeed = 15;
     powerHitMaxSpeed = 25;
@@ -150,7 +150,7 @@ datablock AnimalData(HunterData : DefaultPlayerData)
     fastHitMaxSpeed = 12;
     walkAnimationSpeed = 1.72;
     runAnimationSpeed = 1.21;
-    walkSpeed = 3;
+    walkSpeed = 4;
     runSpeed = 6;
     animalType = "Predator";
 };
@@ -159,7 +159,7 @@ datablock AnimalData(MoleData : DefaultPlayerData)
 {
     id = 781; // has to be globally unique currently this replaces the bear id
     animalTypeId = 2397; // This is dataBlock for wild animal
-    footprintTexture = "yolauncher/modpack/mods/LiFx/KnoolMod-Pack/art/Textures/AnimalFootprints/Tribe_Witch_fs.png";
+    footprintTexture = "yolauncher/modpack/mods/LiFx/KnoolMod-Pack/art/Textures/AnimalFootprints/Mole_fs.png";
     footprintTextureLinearSize = 0.4;
     footprintGap = 0.6;
     footprintTrackWidth = 0.4;
@@ -167,7 +167,7 @@ datablock AnimalData(MoleData : DefaultPlayerData)
     soundFilesPrefix = "wolf";
     behavior = "yolauncher/modpack/data/ai/tribe_mole.xml";
     boundingBox = "1 2.4 1.8";
-    runSurfaceAngle = 50;
+    runSurfaceAngle = 75;
     maxHP = 650;
     hpRegenRate = 3;
     bodyRadius = 2.5;
@@ -175,8 +175,8 @@ datablock AnimalData(MoleData : DefaultPlayerData)
     skinnedCorpseObjectTypeID = 928;
     WeaponData = "Wolf_Fang";
     weaponWeight = 12;
-    powerHitStartingDistance = 1.2;
-    powerHitDamagingDistance = 1.4;
+    powerHitStartingDistance = 1.4;
+    powerHitDamagingDistance = 1.6;
     powerHitDamagingSector = 90;
     powerHitMinSpeed = 15;
     powerHitMaxSpeed = 25;
@@ -187,7 +187,7 @@ datablock AnimalData(MoleData : DefaultPlayerData)
     fastHitMaxSpeed = 12;
     walkAnimationSpeed = 1.72;
     runAnimationSpeed = 1.21;
-    walkSpeed = 3;
+    walkSpeed = 4;
     runSpeed = 6;
     animalType = "Predator";
 };

@@ -132,9 +132,11 @@
 						<node name="IsEnemyInAttackSector" decorator="Inverter" class="EnemyInAttackSector"/>
 						<node name="AttackSelection" class="RandomSelector" value="60 40">
 							<node name="FastAttack" class="Attack" value="Fast"/>
+							<node name="PlayFastAttackSound" class="PlaySound" value="yolauncher/modpack/mods/LiFx/KnoolMod-Pack/art/sound/Tribe/Witch_Attack"/> <!-- Sound Test -->
 							<node name="ChaseAndAttack" class="Sequence">
 								<node name="ChaseEnemyNoAnimation" class="ChaseEnemyNoAnimation"/>
 								<node name="PowerAttack" class="Attack" value="Power"/>
+								<node name="PlayPowerAttackSound" class="PlaySound" value="yolauncher/modpack/mods/LiFx/KnoolMod-Pack/art/sound/Tribe/Witch_Attack"/> <!-- Sound Test -->
 							</node>
 						</node>
 					</node>
