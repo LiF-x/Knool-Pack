@@ -34,7 +34,7 @@
     "dataPatches": [
       {
         "target": "data/cm_spawn_patterns.xml",
-        "patch": "patches/cm_spawn_patterns.patch"
+        "replace": "data/cm_spawn_patterns.xml"
       }
     ]
   }
