@@ -19,14 +19,6 @@
         "dest": "data/ai/"
       },
       {
-        "src": "data/Knool_cm_equipTypes.xml",
-        "dest": "data/Knool_cm_equipTypes.xml"
-      },
-      {
-        "src": "data/knool_cm_objects.xml",
-        "dest": "data/knool_cm_objects.xml"
-      },
-      {
         "src": "yolauncher/modpack/mods/LiFx/",
         "dest": "yolauncher/modpack/mods/LiFx/"
       }
@@ -35,6 +27,14 @@
       {
         "target": "data/cm_spawn_patterns.xml",
         "transform": "transforms/cm_spawn_patterns.xdt.xml"
+      },
+      {
+        "target": "data/cm_equipTypes.xml",
+        "transform": "transforms/cm_equipTypes.xdt.xml"
+      },
+      {
+        "target": "data/cm_objects.xml",
+        "replace": "data/cm_objects.xml"
       }
     ]
   }
