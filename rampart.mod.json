@@ -7,20 +7,45 @@
   "authors": [
     "lif-x community"
   ],
-  "loadOrderHint": 100,
+  "source": {
+    "repo": "LiF-x/Knool-Pack",
+    "commit": "01d921db96215b75976ef780fe9e7f2e826a28f1"
+  },
+  "baseline": {
+    "gameBuild": "sha256:d47ef6156423f1226b6d07a1f31f81d3aa94bc460cc1ac76bcf7d7ef9c305d4a",
+    "steamBuildId": "11261643"
+  },
+  "license": "GPL-3.0-only",
+  "distribution": "hostable",
+  "dependencies": [
+    "LiF-x/ServerAutoloader",
+    "LiF-x/ClientAutoloader"
+  ],
+  "loadOrderHint": 300,
+  "loadOrderNote": "Content mod: registers new object types and equipment types, so it loads after the framework and after plain behavioural mods.",
+  "objectTypeIds": {
+    "added": [
+      2359,
+      2360,
+      2361,
+      2362,
+      2399
+    ],
+    "modified": []
+  },
   "files": {
     "overlay": [
       {
-        "src": "mods/",
-        "dest": "mods/"
+        "src": "mods/LiFx/KnoolMod-Pack/",
+        "dest": "mods/LiFx/KnoolMod-Pack/"
       },
       {
         "src": "data/ai/",
         "dest": "data/ai/"
       },
       {
-        "src": "yolauncher/modpack/mods/LiFx/",
-        "dest": "yolauncher/modpack/mods/LiFx/"
+        "src": "yolauncher/modpack/mods/LiFx/KnoolMod-Pack/",
+        "dest": "yolauncher/modpack/mods/LiFx/KnoolMod-Pack/"
       }
     ],
     "dataPatches": [
